@@ -545,6 +545,22 @@ video {
   place-items: center;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .bg-Cream-background {
   --tw-bg-opacity: 1;
   background-color: rgb(242 234 226 / var(--tw-bg-opacity));
@@ -553,4 +569,84 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-Aquamarine-deep {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 129 104 / var(--tw-bg-opacity));
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-fraunces {
+  font-family: Fraunces, serif;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[\.8125rem\] {
+  font-size: .8125rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.text-Aurometal-text {
+  --tw-text-opacity: 1;
+  color: rgb(108 114 137 / var(--tw-text-opacity));
+}
+
+.text-Gunmetal-title {
+  --tw-text-opacity: 1;
+  color: rgb(28 35 43 / var(--tw-text-opacity));
+}
+
+.text-Aquamarine-deep {
+  --tw-text-opacity: 1;
+  color: rgb(61 129 104 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }

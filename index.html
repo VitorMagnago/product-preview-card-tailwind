@@ -19,7 +19,7 @@
 		/>
 	</head>
 	<body class="h-screen grid place-items-center bg-Cream-background">
-		<main class="max-w-[343px] bg-white">
+		<main class="card max-w-[343px] bg-white">
 			<section>
 				<picture>
 					<source
@@ -33,25 +33,40 @@
 					/>
 				</picture>
 			</section>
-			<section>
-				<span>perfume</span>
-				<h1>Gabrielle Essence Eau De Parfum</h1>
-				<p>
+			<section class="card__content p-6">
+				<span
+					class="text-xs font-montserrat font-medium uppercase text-Aurometal-text"
+					>perfume</span
+				>
+				<h1
+					class="text-[2rem] leading-8 font-fraunces font-bold text-Gunmetal-title"
+				>
+					Gabrielle Essence Eau De Parfum
+				</h1>
+				<p
+					class="text-sm font-montserrat font-medium text-Aurometal-text leading-relaxed"
+				>
 					A floral, solar and voluptuous interpretation composed by Olivier
 					Polge, Perfumer-Creator for the House of CHANEL.
 				</p>
-				<div>
-					<span>&#36;149.99</span>
+				<div class="flex gap-5 items-center">
+					<span
+						class="text-[2rem] leading-8 font-fraunces font-bold text-Aquamarine-deep"
+						>&#36;149.99</span
+					>
 					<del
+						class="text-[.8125rem] font-montserrat font-medium text-Aurometal-text"
 						>&#36;169.99
 						<span class="sr-only">The previous price was $169.99</span>
 					</del>
 				</div>
+				<a
+					href="#"
+					class="flex bg-Aquamarine-deep text-sm text-white font-montserrat font-bold justify-center gap-3 py-4"
+					><img src="./images/icon-cart.svg" alt="shopping cart icon " /> Add to
+					Cart</a
+				>
 			</section>
-
-			<a href="#" class="flex"
-				><img src="./images/icon-cart.svg" alt="" /> Add to Cart</a
-			>
 		</main>
 	</body>
 </html>
