@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
 }
@@ -525,8 +529,22 @@ video {
   width: 100vw;
 }
 
+.max-w-\[343px\] {
+  max-width: 343px;
+}
+
 .place-items-center {
   place-items: center;
+}
+
+.bg-Cream-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 234 226 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .font-montserrat {
@@ -544,4 +562,9 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.before\:content-\[\'\.\/images\/icon-cart\.svg\'\]::before {
+  --tw-content: './images/icon-cart.svg';
+  content: var(--tw-content);
 }
