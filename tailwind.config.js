@@ -4,16 +4,24 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				grey: {
-					background: "#D5E1EF",
-					font: "#7D889E",
+				Cream: {
+					background: "#F2EAE2",
 				},
-				Navy: {
-					dark: "#1F314F",
+				Gunmetal: {
+					title: "#1C232B",
+				},
+
+				Aurometal: {
+					text: "#6C7289",
+				},
+				Aquamarine: {
+					deep: "#3D8168",
+					hover: "#1A4032",
 				},
 			},
 			fontFamily: {
-				outfit: ["Outfit", "sans-serif"],
+				montserrat: ["Montserrat", "sans-serif"],
+				fraunces: ["Fraunces", "serif"],
 			},
 		},
 	},

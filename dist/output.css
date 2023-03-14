@@ -521,11 +521,27 @@ video {
   height: 100vh;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .place-items-center {
   place-items: center;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-fraunces {
+  font-family: Fraunces, serif;
+}
+
+.text-9xl {
+  font-size: 8rem;
   line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
 }
