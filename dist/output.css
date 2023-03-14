@@ -513,6 +513,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .flex {
   display: flex;
 }
@@ -523,10 +535,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .max-w-\[343px\] {
@@ -545,26 +553,4 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.font-montserrat {
-  font-family: Montserrat, sans-serif;
-}
-
-.font-fraunces {
-  font-family: Fraunces, serif;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.before\:content-\[\'\.\/images\/icon-cart\.svg\'\]::before {
-  --tw-content: './images/icon-cart.svg';
-  content: var(--tw-content);
 }
